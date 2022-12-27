@@ -1,0 +1,38 @@
+/* Selector de Atributo */
+/* selector[atributoABuscar="valorAtributo"] */
+
+input[type="tel"]{
+    border: 5px solid slateblue;
+}
+
+a[href="http://www.google.com"]{
+    color: red;
+}
+
+a[href="tienda.html"]{
+    color: green;
+}
+
+/* Si se desea buscar un atributo que inicie con cierto valor
+    selector[atributoABuscar ^= "valorAtributo"];
+    Ejemplo: aplique color amarillo a los enlaces que inicien con http
+
+
+*/
+
+a[href ^="http"]{
+    color: yellow;
+}
+
+
+/* Si se desea buscar un atributo que finalicen con cierto valor
+    selector[atributoABuscar $= "valorAtributo"];
+    Ejemplo: aplique color purpura a los enlaces que finalicen con .com
+
+
+*/
+
+a[href $=".com"]{
+    color: purple;
+}
+

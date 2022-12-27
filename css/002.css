@@ -1,0 +1,11 @@
+/* Selector de clase */
+/* Selecciona a todos los elemtnos que tengan esa misma clase 
+    .nombre-clase{}
+
+    especificidad = 0010
+*/
+
+.primer-parrafo{
+    color: peru;
+    font-size: 3rem;
+}

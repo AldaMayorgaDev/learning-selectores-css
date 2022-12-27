@@ -1,0 +1,24 @@
+/* Primer Elemento despues (Hermano Adyacente)*/
+/* Selector1 + selector2 
+
+    div p + span{} -> esto buscara a un span que sea hermano directo de un p
+*/
+
+.admin div + p{
+    background-color: tomato;
+}
+
+
+/* Hermanos */
+/* Selector1 ~ selector2 
+
+    div p ~ span{} -> esto buscara a todos los span que sean hermano de un p
+*/
+
+.admin div ~ p{
+    text-align: center;
+}
+
+/* .admin div + p{
+    background-color: tomato;
+} */

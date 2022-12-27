@@ -1,0 +1,7 @@
+/* Selector de etiqueta */
+/* Es el Menos especifico, selecciona a todos los elementos con etiqueta */
+
+p{
+    font-size: 23px;
+    color: #4300DD;
+}

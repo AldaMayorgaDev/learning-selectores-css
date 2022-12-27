@@ -1,0 +1,14 @@
+/* Seleccionar primera Linea o primera palabra con pseudoselectores */
+/* 
+    Para seleccionar primer letra ---> selector::first-letter{}
+    Para seleccionar primer linea ---> selector::first-line{}
+*/
+.primer-letra::first-letter{
+    font-size: 20rem;
+    color: green;
+}
+
+.primer-linea::first-line{
+    color: green;
+    font-size: 2rem;
+}

@@ -1,0 +1,15 @@
+/* Selector de Clases anidadas */
+/* 
+    .nombre-clase-padre nombre-clase-hijo{
+
+    }
+
+    NOTA: se recomienda maximo tres anidaciones (niveles)
+ */
+
+ .header .descripcion{
+    color:red;
+ }
+ .descripcion{
+    color: blue;
+ }

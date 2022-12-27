@@ -1,0 +1,15 @@
+/* Selector de Etiqueta y clase */
+/* Selecciona el elemento html que tengan esa clase 
+etiqueta.nombre-clase{}
+
+Ejemplo
+div.texto{} ---> busca un div que tenga la clase texto
+*/
+
+div.texto{
+    background-color: yellow;
+}
+
+.texto{
+    background-color: yellowgreen;
+}

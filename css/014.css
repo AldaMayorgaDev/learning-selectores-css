@@ -1,0 +1,11 @@
+/* Selector para seleccionar Todos los elementos excepto uno o unos con pseudoselectores*/
+/* 
+Si solo se necesita excluir uno
+selector:not(elementoQueSeExcluira) {}
+
+Si se necesita excluir dos o varios
+selector:not(primerElementoQueSeExcluira):not(segundoElementoQueSeExcluira) {}
+*/
+p:not(.texto):not(.oferta){
+    color: red;
+}

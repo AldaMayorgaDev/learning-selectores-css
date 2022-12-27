@@ -1,0 +1,27 @@
+/* Selector de Dos clases */
+/* 
+Selecciona a todos los elementos que tengan esas dos clases
+    .nombre-primer-clase.nombre-segunda-clase{
+
+    }
+ */
+
+.texto{
+    background-color: red;
+}
+
+.azul{
+    color: blue;
+}
+
+.mayusculas{
+    text-transform: uppercase;
+}
+
+.texto.mayusculas{
+    font-size: 10rem;
+}
+
+.texto.azul{
+    text-align: center;
+}

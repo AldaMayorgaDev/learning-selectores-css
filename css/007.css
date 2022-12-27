@@ -1,0 +1,9 @@
+/* Selector para dar estilo a 2 o más elementos que comparten esos estilos*/
+/* selector1,selector2, selectorN{} 
+*/
+
+.texto, .oferta{
+    border: 3px solid tomato;
+    padding: 2px;
+}
+

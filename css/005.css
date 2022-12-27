@@ -1,0 +1,20 @@
+/* Selector de ID */
+/* Selecciona el elemento que tengan ese ID
+    #nombre-selector{}
+
+    especificidad = 0100
+*/
+
+#encabezado{
+    color: purple;
+    text-transform: uppercase;
+}
+
+.texto{
+    color: blue;
+}
+
+#encabezado.texto{
+    color: tomato;
+    text-align: center;
+}

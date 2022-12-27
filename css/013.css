@@ -1,0 +1,42 @@
+/* Seleccionar un elemento en especifico con seudoSelectores*/
+
+/* selector:seudoselector{}
+
+    Elemento en especifico -> selector:nth-child(numeroElemento)
+
+*/
+
+ul li:nth-child(2){
+    color: sandybrown;
+}
+
+/* para todos los numeros impares */
+
+ul li:nth-child(odd){
+    color: chocolate;
+}
+
+/* para todos los numeros pares */
+
+ul li:nth-child(even){
+    color: violet
+}
+
+/* de tres en tres */
+
+ul li:nth-child(3n+1){
+    color: red;
+}
+
+/* Aplicar a los multiplos de 4 */
+
+ul li:nth-child(4n+4){
+    color: black;
+}
+
+/* Aplicar al primero, despues al 4, despues al 7 y asi sucesivamente*/
+
+ul li:nth-child(3n+1){
+    color: blue;
+    text-transform: uppercase;
+}

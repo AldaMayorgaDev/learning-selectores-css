@@ -1,0 +1,12 @@
+/* Primer hijo de una lista con seudoSelectores*/
+
+/* selector:seudoselector{}
+
+    Primer hijo -> selector:first-child{}
+    Primer tipo -> selector:first-of-type{}
+
+*/
+
+ul li:first-child {
+    border: 2px solid firebrick;
+}

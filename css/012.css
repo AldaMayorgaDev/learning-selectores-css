@@ -1,0 +1,12 @@
+/* Último hijo de una lista con seudoSelectores*/
+
+/* selector:seudoselector{}
+
+    Último hijo -> selector:last-child{}
+    Último tipo -> selector:last-of-type{}
+
+*/
+
+ul li:last-child {
+    border: 2px solid firebrick;
+}

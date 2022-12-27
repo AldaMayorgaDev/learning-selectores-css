@@ -1,0 +1,6 @@
+/* Selector de Primer nivel de hijos (Hijos directos) */
+/* SelectorPadre > selectorHijo */
+
+.admin > div{
+    border: 2px solid red;
+}
